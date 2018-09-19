@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+</head>
+
+<style>
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table, td, th {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+}
+
+th, td {
+    padding:15px;
+}
+
+tr:hover {
+    background-color: #d41a1a !important;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #d41a1a;
+}
+
+</style>
+
+<body>
+<ul>
+    <li><a class="active"href="index.html">Even voorstellen</a></li>
+    <li><a href="hobby.html">Hobby's</a></li>
+    <li><a href="contact.html">Contact</a></li>
+</ul>
+
+<table style="margin-top: 40px;">
+    <tr>
+        <th>Naam</th>
+        <td>Robin Sinnema</td>
+    </tr>
+    <tr>
+        <th>E-mail</th>
+        <td>rsinnema@live.nl</td>
+    </tr>
+    <tr>
+        <th>Geboortedatum</th>
+        <td>25 oktober 1998</td>
+    </tr>
+    <tr>
+        <th>Woonplaats</th>
+        <td>Reduzum</td>
+    </tr>
+    <tr>
+        <th>Hobby's</th>
+        <td><a href="hobby.html" style="text-decoration: none;">Klik hier</a></td>
+    </tr>
+    <tr>
+        <th>Vooropleiding</th>            
+        <td>Netwerkbeheer (MBO4)</td>
+    </tr>
+</table>
+
+<table style="margin-top: 40px;">
+    <tr>
+        <th>Programmeertalen</th>
+        <td></td>
+    </tr>
+    <tr>
+        <td>HTML</td>
+        <td>
+            <a href="https://nl.wikipedia.org/wiki/HTML5">
+            <img src="images/HTML5.png" style="width:150px;height:150px;border:0;"></a></td>
+    </tr>
+    <tr>
+        <td>CSS</td>
+        <td>
+            <a href="https://nl.wikipedia.org/wiki/Cascading_Style_Sheets">
+            <img src="images/CSS3.png" style="width:110px;height:150px;border:0;margin-left:20px;"></a></td>
+    </tr>
+    <tr>
+        <td>C#</td>
+        <td>
+            <a href="https://nl.wikipedia.org/wiki/C%E2%99%AF">
+            <img src="images/CSharp.png" style="width:150px;height:150px;border:0;"></a></td>
+    </tr>
+</table>
+</body>
+</html>
+
